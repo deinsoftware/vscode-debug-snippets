@@ -14,10 +14,10 @@ jobs:
       - uses: Eomm/why-don-t-you-tweet@v1
         if: ${{ !github.event.repository.private }}
         with:
-          tweet-message: "Extension for @code with console snippets ${{ github.event.release.tag_name }} 🐛🔨 is here 🥳\n\n
-          $ ext install deinsoftware.console-snippets\n\n
+          tweet-message: "Extension for @code with debug snippets ${{ github.event.release.tag_name }} 🐛🔨 is here 🥳\n\n
+          $ ext install deinsoftware.debug-snippets\n\n
           #vscode #snippets #javascript #typescript #css\n\n
-          https://marketplace.visualstudio.com/items?itemName=deinsoftware.console-snippets"
+          https://marketplace.visualstudio.com/items?itemName=deinsoftware.debug-snippets"
         env:
           TWITTER_CONSUMER_API_KEY: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
           TWITTER_CONSUMER_API_SECRET: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}

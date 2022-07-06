@@ -13,4 +13,4 @@ Security    to invite users to upgrade in case of vulnerabilities.
 
 ### Added
 
-- Console snippets
+- Debug snippets
