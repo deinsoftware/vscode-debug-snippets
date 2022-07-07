@@ -10,7 +10,7 @@
 
 The quick and easy way to debug your code and styles with [VS Code](https://code.visualstudio.com/).
 
-> We also **recommend** installing his complement extensions [Const & Props Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets) and [Arrow Snippets](https://github.com/deinsoftware/vscode-arrow-snippets)
+> We also **recommend** installing his complement extensions [Const & Props Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets) and [Arrow Function Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
 
 ## Menu
 

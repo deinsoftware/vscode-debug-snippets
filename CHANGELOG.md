@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.0.1] - 2022/07/05
+
+### Fixed
+
+- URL for sibling extensions
+
 ## [1.0.0] - 2022/07/05
 
 ### Added
