@@ -11,7 +11,7 @@
   },
   "consoleLogMessage": {
     "prefix": "clm",
-    "body": "console.log('${1:name}': ${1:name})$0",
+    "body": "console.log('${1:name}:', ${1:name})$0",
     "description": "Console Log with Message"
   },
   "consoleLogDestructuring": {
@@ -31,7 +31,7 @@
   },
   "consoleDebugMessage": {
     "prefix": "cdm",
-    "body": "console.debug('${1:name}': ${1:name})$0",
+    "body": "console.debug('${1:name}:', ${1:name})$0",
     "description": "Console Debug with Message"
   },
   "consoleDebugDestructuring": {
@@ -51,7 +51,7 @@
   },
   "consoleInfoMessage": {
     "prefix": "cim",
-    "body": "console.info('${1:name}': ${1:name})$0",
+    "body": "console.info('${1:name}:', ${1:name})$0",
     "description": "Console Info with Message"
   },
   "consoleInfoDestructuring": {
@@ -71,7 +71,7 @@
   },
   "consoleErrorMessage": {
     "prefix": "cem",
-    "body": "console.error('${1:name}': ${1:name})$0",
+    "body": "console.error('${1:name}:', ${1:name})$0",
     "description": "Console Error with Message"
   },
   "consoleErrorDestructuring": {
@@ -91,7 +91,7 @@
   },
   "consoleWarnMessage": {
     "prefix": "cwm",
-    "body": "console.warn('${1:name}': ${1:name})$0",
+    "body": "console.warn('${1:name}:', ${1:name})$0",
     "description": "Console Warn with Message"
   },
   "consoleWarnDestructuring": {
