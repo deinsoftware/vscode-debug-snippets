@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.0.3] - 2022/07/05
+
+### Fixed
+
+- Wrapper trigger on README
+
 ## [1.0.2] - 2022/07/05
 
 ### Fixed

@@ -101,7 +101,7 @@ Below is a list of all available snippets and the triggers of each one. The **$*
 |  `cts→` | [time start](https://developer.mozilla.org/en-US/docs/Web/API/Console/time)                        | `console.time($label)█`                                              |
 |  `ctl→` | [time log](https://developer.mozilla.org/en-US/docs/Web/API/console/timeLog)                       | `console.timeLog($label)█`                                           |
 |  `cte→` | [time end](https://developer.mozilla.org/en-US/docs/Web/API/console/timeEnd)                       | `console.timeEnd($label)█`                                           |
-|  `ctg→` | time wrapper                                                                                       | <code>console.time($label)<br/>█<br/>console.timeEnd($label)</code>   |
+|  `ctw→` | time wrapper                                                                                       | <code>console.time($label)<br/>█<br/>console.timeEnd($label)</code>   |
 |  `cgs→` | [group start](https://developer.mozilla.org/en-US/docs/Web/API/Console/group)                      | `console.group($label)█`                                             |
 |  `cge→` | [group end](https://developer.mozilla.org/en-US/docs/Web/API/console/groupEnd)                     | `console.groupEnd($label)█`                                          |
 |  `cgw→` | group wrapper                                                                                      | <code>console.group($label)<br/>█<br/>console.groupEnd($label)</code> |
