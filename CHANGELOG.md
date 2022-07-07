@@ -9,6 +9,13 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.0.2] - 2022/07/05
+
+### Fixed
+
+- Add TAB symbol
+- Remove links on wrappers
+
 ## [1.0.1] - 2022/07/05
 
 ### Fixed
