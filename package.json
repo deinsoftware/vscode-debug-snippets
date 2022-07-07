@@ -41,115 +41,19 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/destructuring.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/elements.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/var-js.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/destructuring.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/elements.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/var-js.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/react.json"
-      },
-      {
-        "language": "jsx-attr",
-        "path": "./snippets/destructuring.json"
-      },
-      {
-        "language": "jsx-attr",
-        "path": "./snippets/elements.json"
-      },
-      {
-        "language": "jsx-attr",
-        "path": "./snippets/var-js.json"
-      },
-      {
-        "language": "jsx-attr",
-        "path": "./snippets/react.json"
-      },
-      {
-        "language": "vue",
-        "path": "./snippets/destructuring.json"
-      },
-      {
-        "language": "vue",
-        "path": "./snippets/elements.json"
-      },
-      {
-        "language": "vue",
-        "path": "./snippets/var-js.json"
+        "path": "./snippets/code.json"
       },
       {
         "language": "typescript",
-        "path": "./snippets/destructuring.json"
+        "path": "./snippets/code.json"
       },
       {
-        "language": "typescript",
-        "path": "./snippets/elements.json"
+        "language": "css",
+        "path": "./snippets/styles.json"
       },
       {
-        "language": "typescriptreact",
-        "path": "./snippets/var-ts.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/destructuring.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/elements.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react.json"
-      },
-      {
-        "language": "tsx-attr",
-        "path": "./snippets/var-ts.json"
-      },
-      {
-        "language": "tsx-attr",
-        "path": "./snippets/destructuring.json"
-      },
-      {
-        "language": "tsx-attr",
-        "path": "./snippets/elements.json"
-      },
-      {
-        "language": "tsx-attr",
-        "path": "./snippets/react.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/var-ts.json"
-      },
-      {
-        "language": "json",
-        "path": "./snippets/json.json"
-      },
-      {
-        "language": "jsonc",
-        "path": "./snippets/json.json"
-      },
-      {
-        "language": "json5",
-        "path": "./snippets/json.json"
+        "language": "scss",
+        "path": "./snippets/styles.json"
       }
     ]
   },

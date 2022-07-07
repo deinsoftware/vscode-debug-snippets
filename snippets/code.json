@@ -1,0 +1,185 @@
+{
+  "debugger": {
+    "prefix": "dbg",
+    "body": "debugger$0",
+    "description": "Debugger"
+  },
+  "consoleLog": {
+    "prefix": "cl",
+    "body": "console.log(${1:name})$0",
+    "description": "Console Log"
+  },
+  "consoleLogMessage": {
+    "prefix": "clm",
+    "body": "console.log('${1:name}': ${1:name})$0",
+    "description": "Console Log with Message"
+  },
+  "consoleLogDestructuring": {
+    "prefix": "cld",
+    "body": "console.log({${1:name}})$0",
+    "description": "Console Log with Destructuring"
+  },
+  "consoleLogJson": {
+    "prefix": "clj",
+    "body": "console.log('${1:obj}', JSON.stringify(${1:obj}, null, 2))$0",
+    "description": "Console Log with Destructuring"
+  },
+  "consoleDebug": {
+    "prefix": "cd",
+    "body": "console.debug(${1:name})$0",
+    "description": "Console Debug"
+  },
+  "consoleDebugMessage": {
+    "prefix": "cdm",
+    "body": "console.debug('${1:name}': ${1:name})$0",
+    "description": "Console Debug with Message"
+  },
+  "consoleDebugDestructuring": {
+    "prefix": "cdd",
+    "body": "console.debug({${1:name}})$0",
+    "description": "Console Debug with Destructuring"
+  },
+  "consoleDebugJson": {
+    "prefix": "cdj",
+    "body": "console.debug('${1:obj}', JSON.stringify(${1:obj}, null, 2))$0",
+    "description": "Console Debug with Destructuring"
+  },
+  "consoleInfo": {
+    "prefix": "ci",
+    "body": "console.info(${1:name})$0",
+    "description": "Console Info"
+  },
+  "consoleInfoMessage": {
+    "prefix": "cim",
+    "body": "console.info('${1:name}': ${1:name})$0",
+    "description": "Console Info with Message"
+  },
+  "consoleInfoDestructuring": {
+    "prefix": "cid",
+    "body": "console.info({${1:name}})$0",
+    "description": "Console Info with Destructuring"
+  },
+  "consoleInfoJson": {
+    "prefix": "cij",
+    "body": "console.info('${1:obj}', JSON.stringify(${1:obj}, null, 2))$0",
+    "description": "Console Info with Destructuring"
+  },
+  "consoleError": {
+    "prefix": "ce",
+    "body": "console.error(${1:name})$0",
+    "description": "Console Error"
+  },
+  "consoleErrorMessage": {
+    "prefix": "cem",
+    "body": "console.error('${1:name}': ${1:name})$0",
+    "description": "Console Error with Message"
+  },
+  "consoleErrorDestructuring": {
+    "prefix": "ced",
+    "body": "console.error({${1:name}})$0",
+    "description": "Console Error with Destructuring"
+  },
+  "consoleErrorJson": {
+    "prefix": "cej",
+    "body": "console.error('${1:obj}', JSON.stringify(${1:obj}, null, 2))$0",
+    "description": "Console Error with Destructuring"
+  },
+  "consoleWarn": {
+    "prefix": "cw",
+    "body": "console.warn(${1:name})$0",
+    "description": "Console Warn"
+  },
+  "consoleWarnMessage": {
+    "prefix": "cwm",
+    "body": "console.warn('${1:name}': ${1:name})$0",
+    "description": "Console Warn with Message"
+  },
+  "consoleWarnDestructuring": {
+    "prefix": "cwd",
+    "body": "console.warn({${1:name}})$0",
+    "description": "Console Warn with Destructuring"
+  },
+  "consoleWarnJson": {
+    "prefix": "cwj",
+    "body": "console.warn('${1:obj}', JSON.stringify(${1:obj}, null, 2))$0",
+    "description": "Console Warn with Destructuring"
+  },
+  "consoleTable": {
+    "prefix": "ct",
+    "body": "console.table(${1:collection})$0",
+    "description": "Console Table"
+  },
+  "consoleAssert": {
+    "prefix": "ca",
+    "body": "console.assert(${1:expression}, ${2:name})$0",
+    "description": "Console Assert"
+  },
+  "consoleDir": {
+    "prefix": "cdr",
+    "body": "console.dir(${1:name})$0",
+    "description": "Console Dir"
+  },
+  "consoleTrace": {
+    "prefix": "ctr",
+    "body": "console.trace(${1:name})$0",
+    "description": "Console Trace"
+  },
+  "consoleCount": {
+    "prefix": "cc",
+    "body": "console.count('${1:label}')$0",
+    "description": "Console Count"
+  },
+  "consoleCountReset": {
+    "prefix": "ccr",
+    "body": "console.countReset('${1:label}')$0",
+    "description": "Console Count Reset"
+  },
+  "consoleTimeStart": {
+    "prefix": "cts",
+    "body": "console.time('${1:label}')$0",
+    "description": "Console Time Start"
+  },
+  "consoleTimeLog": {
+    "prefix": "ctl",
+    "body": "console.timeLog('${1:label}')$0",
+    "description": "Console Time Log"
+  },
+  "consoleTimeEnd": {
+    "prefix": "cte",
+    "body": "console.timeEnd('${1:label}')$0",
+    "description": "Console Time End"
+  },
+  "consoleTimeWrapper": {
+    "prefix": "ctw",
+    "body": [
+      "console.time('${1:label}')",
+      "$0",
+      "console.timeEnd('${1:label}')"
+    ],
+    "description": "Console Time Wrapper"
+  },
+  "consoleGroupStart": {
+    "prefix": "cgs",
+    "body": "console.group('${1:label}')$0",
+    "description": "Console Group Start"
+  },
+  "consoleGroupEnd": {
+    "prefix": "cge",
+    "body": "console.groupEnd('${1:label}')$0",
+    "description": "Console Group End"
+  },
+  "consoleGroupWrapper": {
+    "prefix": "cgw",
+    "body": [
+      "console.group('${1:label}')",
+      "$0",
+      "console.groupEnd('${1:label}')"
+    ],
+    "description": "Console Group Wrapper"
+  },
+  "consoleClear": {
+    "prefix": "clr",
+    "body": "console.clear()$0",
+    "description": "Console Clear"
+  }
+}

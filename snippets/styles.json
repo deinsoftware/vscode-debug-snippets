@@ -1,0 +1,20 @@
+{
+  "consoleOutline": {
+    "prefix": "co",
+    "body": "outline: 1px solid #${1:00FF00} !important;$0",
+    "description": "Console Outline"
+  },
+  "consoleBackground": {
+    "prefix": "cb",
+    "body": "background: #${1:00FF00}20 !important;$0",
+    "description": "Console Background"
+  },
+  "consoleOutlineBackground": {
+    "prefix": "cob",
+    "body": [
+      "outline: 1px solid #${1:00FF00} !important;",
+      "background: #${1:00FF00}20 !important;$0"
+    ],
+    "description": "Console Outline and Background"
+  }
+}
