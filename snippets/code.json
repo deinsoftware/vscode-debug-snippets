@@ -109,6 +109,11 @@
     "body": "console.table(${1:collection})$0",
     "description": "Console Table"
   },
+  "consoleTableDestructuring": {
+    "prefix": "cld",
+    "body": "console.table({${1:name}})$0",
+    "description": "Console Table with Destructuring"
+  },
   "consoleAssert": {
     "prefix": "ca",
     "body": "console.assert(${1:expression}, ${2:name})$0",

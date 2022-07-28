@@ -70,42 +70,43 @@ Below is a list of all available snippets and the triggers of each one. The **$*
 ### Code
 
 | Trigger | Description                                                                                        | Result JS/TS                                                        |
-| ------: | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-|  `dbg→` | [debugger](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger)  | `debugger█`                                                         |
-|   `cl→` | [log](https://developer.mozilla.org/en-US/docs/Web/API/Console/log)                                | `console.log($name)█`                                                |
+| ------: | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+|  `dbg→` | [debugger](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger)  | `debugger█`                                                           |
+|   `cl→` | [log](https://developer.mozilla.org/en-US/docs/Web/API/Console/log)                                | `console.log($name)█`                                                 |
 |  `clm→` |   log with message                                                                                 | `console.log('$name:', $name)█`                                       |
-|  `cld→` |   log with destructuring                                                                           | `console.log({$name})█`                                              |
+|  `cld→` |   log with destructuring                                                                           | `console.log({$name})█`                                               |
 |  `clj→` |   log with json                                                                                    | `console.log('$obj:', JSON.stringify($obj, null, 2))█`                |
-|   `cd→` | [debug](https://developer.mozilla.org/en-US/docs/Web/API/Console/debug)                            | `console.debug($name)█`                                              |
+|   `cd→` | [debug](https://developer.mozilla.org/en-US/docs/Web/API/Console/debug)                            | `console.debug($name)█`                                               |
 |  `cdm→` |   debug with message                                                                               | `console.debug('$name:', $name)█`                                     |
-|  `cdd→` |   debug with destructuring                                                                         | `console.debug({$name})█`                                            |
+|  `cdd→` |   debug with destructuring                                                                         | `console.debug({$name})█`                                             |
 |  `cdj→` |   debug with json                                                                                  | `console.debug('$obj:', JSON.stringify($obj, null, 2))█`              |
-|   `ci→` | [info](https://developer.mozilla.org/en-US/docs/Web/API/Console/info)                              | `console.info($name)█`                                               |
+|   `ci→` | [info](https://developer.mozilla.org/en-US/docs/Web/API/Console/info)                              | `console.info($name)█`                                                |
 |  `cim→` |   info with message                                                                                | `console.info('$name:', $name)█`                                      |
-|  `cid→` |   info with destructuring                                                                          | `console.info({$name})`                                              |
+|  `cid→` |   info with destructuring                                                                          | `console.info({$name})`                                               |
 |  `cij→` |   info with json                                                                                   | `console.info('$obj:', JSON.stringify($obj, null, 2))█`               |
-|   `ce→` | [error](https://developer.mozilla.org/en-US/docs/Web/API/Console/error)                            | `console.error($name)█`                                              |
+|   `ce→` | [error](https://developer.mozilla.org/en-US/docs/Web/API/Console/error)                            | `console.error($name)█`                                               |
 |  `cem→` |   error with message                                                                               | `console.error('$name:', $name)█`                                     |
-|  `ced→` |   error with destructuring                                                                         | `console.error({$name})█`                                            |
+|  `ced→` |   error with destructuring                                                                         | `console.error({$name})█`                                             |
 |  `cej→` |   info with json                                                                                   | `console.error('$obj:', JSON.stringify($obj, null, 2))█`              |
-|   `cw→` | [warn](https://developer.mozilla.org/en-US/docs/Web/API/Console/warn)                              | `console.warn($name)█`                                               |
+|   `cw→` | [warn](https://developer.mozilla.org/en-US/docs/Web/API/Console/warn)                              | `console.warn($name)█`                                                |
 |  `cwm→` |   warn with message                                                                                | `console.warn('$name:', $name)█`                                      |
-|  `cwd→` |   warn with destructuring                                                                          | `console.warn({$name}█)`                                             |
+|  `cwd→` |   warn with destructuring                                                                          | `console.warn({$name}█)`                                              |
 |  `cwj→` |   info with json                                                                                   | `console.warn('$obj:', JSON.stringify($obj, null, 2))█`               |
-|   `ct→` | [table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table)                            | `console.table($collection)█`                                        |
+|   `ct→` | [table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table)                            | `console.table($collection)█`                                         |
+|  `ctd→` |   table with destructuring                                                                         | `console.table({$name})█`                                             |
 |   `ca→` | [assert](https://developer.mozilla.org/en-US/docs/Web/API/Console/assert)                          | `console.assert($expression, $name)█`                                 |
-|  `cdr→` | [dir](https://developer.mozilla.org/en-US/docs/Web/API/Console/dir)                                | `console.dir($name)█`                                                |
-|  `ctr→` | [trace](https://developer.mozilla.org/en-US/docs/Web/API/Console/trace)                            | `console.trace($name)█`                                              |
-|   `cc→` | [count](https://developer.mozilla.org/en-US/docs/Web/API/Console/count)                            | `console.count($label)█`                                             |
-|  `ccr→` | [count reset](https://developer.mozilla.org/en-US/docs/Web/API/Console/countReset)                 | `console.countReset($label)█`                                        |
-|  `cts→` | [time start](https://developer.mozilla.org/en-US/docs/Web/API/Console/time)                        | `console.time($label)█`                                              |
-|  `ctl→` | [time log](https://developer.mozilla.org/en-US/docs/Web/API/console/timeLog)                       | `console.timeLog($label)█`                                           |
-|  `cte→` | [time end](https://developer.mozilla.org/en-US/docs/Web/API/console/timeEnd)                       | `console.timeEnd($label)█`                                           |
+|  `cdr→` | [dir](https://developer.mozilla.org/en-US/docs/Web/API/Console/dir)                                | `console.dir($name)█`                                                 |
+|  `ctr→` | [trace](https://developer.mozilla.org/en-US/docs/Web/API/Console/trace)                            | `console.trace($name)█`                                               |
+|   `cc→` | [count](https://developer.mozilla.org/en-US/docs/Web/API/Console/count)                            | `console.count($label)█`                                              |
+|  `ccr→` | [count reset](https://developer.mozilla.org/en-US/docs/Web/API/Console/countReset)                 | `console.countReset($label)█`                                         |
+|  `cts→` | [time start](https://developer.mozilla.org/en-US/docs/Web/API/Console/time)                        | `console.time($label)█`                                               |
+|  `ctl→` | [time log](https://developer.mozilla.org/en-US/docs/Web/API/console/timeLog)                       | `console.timeLog($label)█`                                            |
+|  `cte→` | [time end](https://developer.mozilla.org/en-US/docs/Web/API/console/timeEnd)                       | `console.timeEnd($label)█`                                            |
 |  `ctw→` | time wrapper                                                                                       | <code>console.time($label)<br/>█<br/>console.timeEnd($label)</code>   |
-|  `cgs→` | [group start](https://developer.mozilla.org/en-US/docs/Web/API/Console/group)                      | `console.group($label)█`                                             |
-|  `cge→` | [group end](https://developer.mozilla.org/en-US/docs/Web/API/console/groupEnd)                     | `console.groupEnd($label)█`                                          |
+|  `cgs→` | [group start](https://developer.mozilla.org/en-US/docs/Web/API/Console/group)                      | `console.group($label)█`                                              |
+|  `cge→` | [group end](https://developer.mozilla.org/en-US/docs/Web/API/console/groupEnd)                     | `console.groupEnd($label)█`                                           |
 |  `cgw→` | group wrapper                                                                                      | <code>console.group($label)<br/>█<br/>console.groupEnd($label)</code> |
-|  `clr→` | [clear](https://developer.mozilla.org/en-US/docs/Web/API/Console/clear)                            | `console.clear()█`                                                  |
+|  `clr→` | [clear](https://developer.mozilla.org/en-US/docs/Web/API/Console/clear)                            | `console.clear()█`                                                    |
 
 ### Styles
 

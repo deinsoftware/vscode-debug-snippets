@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.1.0] - 2022/07/27
+
+### Added
+
+- Console table destructuring
+
 ## [1.0.4] - 2022/07/07
 
 ### Fixed
