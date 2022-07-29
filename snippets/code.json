@@ -110,7 +110,7 @@
     "description": "Console Table"
   },
   "consoleTableDestructuring": {
-    "prefix": "cld",
+    "prefix": "ctd",
     "body": "console.table({${1:name}})$0",
     "description": "Console Table with Destructuring"
   },
