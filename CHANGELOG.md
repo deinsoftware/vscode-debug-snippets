@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.2.0] - 2022/12/09
+
+### Added
+
+- Experimental console.profile added as snippet
+
 ## [1.1.1] - 2022/07/29
 
 ### Fixed

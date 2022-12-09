@@ -139,6 +139,25 @@
     "body": "console.countReset('${1:label}')$0",
     "description": "Console Count Reset"
   },
+  "consoleProfileStart": {
+    "prefix": "cps",
+    "body": "console.profile()$0",
+    "description": "Console Profile Start"
+  },
+  "consoleProfileEnd": {
+    "prefix": "cpe",
+    "body": "console.profileEnd('${1:label}')$0",
+    "description": "Console Profile End"
+  },
+  "consoleProfileWrapper": {
+    "prefix": "cpw",
+    "body": [
+      "console.profile()",
+      "$0",
+      "console.profileEnd()"
+    ],
+    "description": "Console Time Wrapper"
+  },
   "consoleTimeStart": {
     "prefix": "cts",
     "body": "console.time('${1:label}')$0",

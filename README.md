@@ -99,6 +99,9 @@ Below is a list of all available snippets and the triggers of each one. The **$*
 |  `ctr→` | [trace](https://developer.mozilla.org/en-US/docs/Web/API/Console/trace)                            | `console.trace($name)█`                                               |
 |   `cc→` | [count](https://developer.mozilla.org/en-US/docs/Web/API/Console/count)                            | `console.count($label)█`                                              |
 |  `ccr→` | [count reset](https://developer.mozilla.org/en-US/docs/Web/API/Console/countReset)                 | `console.countReset($label)█`                                         |
+|  `cps→` | [profile start](https://developer.mozilla.org/en-US/docs/Web/API/console/profile)                  | `console.profile()█`                                                  |
+|  `cpe→` | [profile end](https://developer.mozilla.org/en-US/docs/Web/API/console/profileEnd)                 | `console.profileEnd()█`                                               |
+|  `cpw→` | profile wrapper                                                                                    | <code>console.profile()<br/>█<br/>console.profileEnd()</code>         |
 |  `cts→` | [time start](https://developer.mozilla.org/en-US/docs/Web/API/Console/time)                        | `console.time($label)█`                                               |
 |  `ctl→` | [time log](https://developer.mozilla.org/en-US/docs/Web/API/console/timeLog)                       | `console.timeLog($label)█`                                            |
 |  `cte→` | [time end](https://developer.mozilla.org/en-US/docs/Web/API/console/timeEnd)                       | `console.timeEnd($label)█`                                            |
