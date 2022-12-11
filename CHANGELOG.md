@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 1.2.1 - 2022/12/11
+
+### Fixed
+
+- Marketplace badges url using [VSMarketplaceBadges](https://vsmarketplacebadges.dev/)
+
 ## [1.2.0] - 2022/12/09
 
 ### Added
