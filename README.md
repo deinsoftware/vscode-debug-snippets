@@ -22,6 +22,7 @@ The quick and easy way to debug your code and styles with [VS Code](https://code
 - [Snippets](#snippets)
   - [Code](#code)
   - [Styles](#styles)
+- [Settings](#settings)
 - [About](#about)
 
 ---
@@ -118,6 +119,18 @@ Below is a list of all available snippets and the triggers of each one. The **$*
 |   `co→` | outline                         | `outline: 1px solid $color !important;█`                                               |
 |   `cb→` | background                      | `background: $color !important;█`                                                      |
 |  `cob→` | outline and background          | <code>outline: 1px solid $color !important;<br/>background: $color !important;█</code> |
+
+⇧ [Back to menu](#menu)
+
+---
+
+## Settings
+
+The `editor.snippetSuggestions` setting in vscode `settings.json` will show snippets on top of the suggestion list.
+
+```json
+"editor.snippetSuggestions": "top"
+```
 
 ⇧ [Back to menu](#menu)
 
