@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 1.4.0 - 2023/04/14
+
+### Added
+
+- support on JSX and TSX and Vue files
+
 ## 1.3.0 - 2023/02/27
 
 ### Added

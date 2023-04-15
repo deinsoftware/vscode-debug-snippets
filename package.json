@@ -1,7 +1,7 @@
 {
   "name": "debug-snippets",
   "description": "VS Code Debug snippets for JS, TS and CSS",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "displayName": "Debug Snippets",
   "publisher": "deinsoftware",
   "icon": "images/light-icon.png",
@@ -44,7 +44,27 @@
         "path": "./snippets/code.json"
       },
       {
+        "language": "jsx-attr",
+        "path": "./snippets/code.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/code.json"
+      },
+      {
         "language": "typescript",
+        "path": "./snippets/code.json"
+      },
+      {
+        "language": "tsx-attr",
+        "path": "./snippets/code.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/code.json"
+      },
+      {
+        "language": "vue",
         "path": "./snippets/code.json"
       },
       {
