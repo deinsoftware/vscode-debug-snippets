@@ -22,6 +22,7 @@ The quick and easy way to debug your code and styles with [VS Code](https://code
 - [Snippets](#snippets)
   - [Code](#code)
   - [Styles](#styles)
+- [keyboard](#keyboard)
 - [Settings](#settings)
 - [About](#about)
 
@@ -66,7 +67,7 @@ Open the extension manager with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>X</kbd> (W
 
 ## Snippets
 
-Below is a list of all available snippets and the triggers of each one. The **$** means the `TAB` key and `█` the final cursor position.
+Below is a list of all available snippets and the triggers of each one. The **$** means the `TAB` jump position and `█` the final cursor position.
 
 ### Code
 
@@ -124,6 +125,19 @@ Below is a list of all available snippets and the triggers of each one. The **$*
 
 ---
 
+## Keyboard
+
+Remember to complement the snippets with these keyboard shortcuts that can be used without needing to move the cursor to the start or to the end.
+
+| Action            | Win/Linux          | macOS             |
+| ----------------- | -----------------: | ----------------: |
+| Insert line above | `ctrl+shift+enter` | `cmd+shift+enter` |
+| Insert line below | `ctrl+enter`       | `cmd+enter`       |
+
+⇧ [Back to menu](#menu)
+
+---
+
 ## Settings
 
 The `editor.snippetSuggestions` setting in vscode `settings.json` will show snippets on top of the suggestion list.
@@ -142,6 +156,7 @@ The `editor.snippetSuggestions` setting in vscode `settings.json` will show snip
 
 - [VS Code](https://code.visualstudio.com/) - Code editing redefined.
 - [Figma](https://www.figma.com/) - The collaborative interface design tool.
+- [SWPM](https://www.npmjs.com/package/swpm) - One Package Manager to command them all.
 
 ### Sources
 
