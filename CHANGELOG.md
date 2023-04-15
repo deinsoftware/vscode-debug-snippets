@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 1.4.1 - 2023/04/14
+
+### Fixed
+
+Readme cursor symbol
+
 ## 1.4.0 - 2023/04/14
 
 ### Added
