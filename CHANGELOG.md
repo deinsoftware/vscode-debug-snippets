@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 1.4.2 - 2023/04/17
+
+### Fixed
+
+- social and preview images
+
 ## 1.4.1 - 2023/04/14
 
 ### Fixed
