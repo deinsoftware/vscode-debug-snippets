@@ -119,6 +119,11 @@
     "body": "console.assert(${1:expression}, ${2:name})$0",
     "description": "Console Assert"
   },
+  "consoleAssertError": {
+    "prefix": "cae",
+    "body": "console.assert(${1:result} === ${2:expected}, '%o', {${1:result}, ${2:expected}, errorMsg: '${3:errorMsg}')$0",
+    "description": "Console Assert Error"
+  },
   "consoleDir": {
     "prefix": "cdr",
     "body": "console.dir(${1:name})$0",
@@ -151,11 +156,7 @@
   },
   "consoleProfileWrapper": {
     "prefix": "cpw",
-    "body": [
-      "console.profile()",
-      "$0",
-      "console.profileEnd()"
-    ],
+    "body": ["console.profile()", "$0", "console.profileEnd()"],
     "description": "Console Time Wrapper"
   },
   "consoleTimeStart": {

@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 1.4.5 - 2023/04/26
+
+### Added
+
+- console.assert with error message snippet
+
 ## 1.4.2 - 2023/04/17
 
 ### Fixed
