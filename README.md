@@ -115,9 +115,9 @@ Below is a list of all available snippets and the triggers of each one. The `░
 
 ### React
 
-| Trigger | Description                     | Result JSX/TSX                                              |
-| ------: | ------------------------------- | ----------------------------------------------------------- |
-|  `ccd→` | console code with destructuring | `<pre><code>JSON.stringify({░name}, null, 2)</code></pre>█` |
+| Trigger | Description                     | Result JSX/TSX                                                |
+| ------: | ------------------------------- | ------------------------------------------------------------- |
+|  `ccd→` | console code with destructuring | `<pre><code>{JSON.stringify({░name}, null, 2)}</code></pre>█` |
 
 ### Styles
 
