@@ -9,7 +9,11 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
-## 1.5.0 - 2024/
+## 1.5.0 - 2024/08/16
+
+### Added
+
+- snippet for debug values inside a react component with json stringify
 
 ## 1.4.2 - 2023/04/17
 
