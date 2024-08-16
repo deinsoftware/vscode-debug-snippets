@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 1.5.2 - 2024/08/16
+
+### Fixed
+
+- React snippets
+
 ## 1.5.1 - 2024/08/16
 
 ### Fixed
