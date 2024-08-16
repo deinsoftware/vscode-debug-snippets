@@ -1,7 +1,7 @@
 {
   "name": "debug-snippets",
   "description": "VS Code Debug snippets for JS, TS and CSS",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "displayName": "Debug Snippets",
   "publisher": "deinsoftware",
   "icon": "images/light-icon.png",
@@ -68,8 +68,16 @@
         "path": "./snippets/code.json"
       },
       {
+        "language": "tsx-attr",
+        "path": "./snippets/react.json"
+      },
+      {
         "language": "typescriptreact",
         "path": "./snippets/code.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react.json"
       },
       {
         "language": "vue",
@@ -91,8 +99,8 @@
     "test:ui": "vitest --ui"
   },
   "volta": {
-    "node": "18.14.2",
-    "npm": "9.5.0"
+    "node": "20.16.0",
+    "npm": "10.8.1"
   },
   "devDependencies": {
     "vitest": "0.29.1"
