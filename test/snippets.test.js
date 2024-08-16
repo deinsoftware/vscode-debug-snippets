@@ -1,10 +1,12 @@
 import { it, expect, describe } from 'vitest'
 
 const codeSnippets = require("../snippets/code.json")
+const reactSnippets = require("../snippets/react.json")
 const stylesSnippets = require("../snippets/styles.json")
 
 const snippets = {
   ...codeSnippets,
+  ...reactSnippets,
   ...stylesSnippets,
 }
 

@@ -113,6 +113,12 @@ Below is a list of all available snippets and the triggers of each one. The `░
 |  `cgw→` | group wrapper                                                                                      | <code>console.group(░label)<br/>█<br/>console.groupEnd(░label)</code> |
 |  `clr→` | [clear](https://developer.mozilla.org/en-US/docs/Web/API/Console/clear)                            | `console.clear()█`                                                    |
 
+### React
+
+| Trigger | Description                     | Result JSX/TSX                                              |
+| ------: | ------------------------------- | ----------------------------------------------------------- |
+|  `csd→` | console code with destructuring | `<pre><code>JSON.stringify({░name}, null, 2)</code></pre>█` |
+
 ### Styles
 
 | Trigger | Description                     | Result CSS                                                                             |

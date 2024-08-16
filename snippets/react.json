@@ -1,0 +1,7 @@
+{
+  "consoleCodeDestructuring": {
+    "prefix": "ccd",
+    "body": "<pre><code>JSON.stringify({${1:name}}, null, 2)</code></pre>$0",
+    "description": "Console Code with Destructuring"
+  }
+}
