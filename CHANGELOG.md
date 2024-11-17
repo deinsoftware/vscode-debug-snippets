@@ -14,6 +14,7 @@ Security    to invite users to upgrade in case of vulnerabilities.
 ### Changed
 
 - Social and preview logos with new official CSS logo
+- Bump node and vitest version
 
 ## 1.5.2 - 2024/08/16
 
