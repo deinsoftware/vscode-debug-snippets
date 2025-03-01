@@ -9,6 +9,16 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 1.7.0 - 2025/03/01
+
+### Added
+
+- Console context snippets support
+
+### Changed
+
+- bump vitest version
+
 ## 1.6.0 - 2024/11/16
 
 ### Changed

@@ -1,0 +1,206 @@
+{
+    "consoleContext": {
+      "prefix": "cx",
+      "body": "const ${1:context} = console.context(${2:label})$0",
+      "description": "Console Context"
+    },
+    "consoleLog": {
+      "prefix": "cxl",
+      "body": "${1:context}.log(${2:name})$0",
+      "description": "Console Context Log"
+    },
+    "consoleLogMessage": {
+      "prefix": "cxlm",
+      "body": "${1:context}.log('${2:name}:', ${2:name})$0",
+      "description": "Console Context Log with Message"
+    },
+    "consoleLogDestructuring": {
+      "prefix": "cxld",
+      "body": "${1:context}.log({${2:name}})$0",
+      "description": "Console Context Log with Destructuring"
+    },
+    "consoleLogJson": {
+      "prefix": "cxlj",
+      "body": "${1:context}.log('${2:obj}', JSON.stringify(${2:obj}, null, 2))$0",
+      "description": "Console Context Log with Destructuring"
+    },
+    "consoleDebug": {
+      "prefix": "cxd",
+      "body": "${1:context}.debug(${2:name})$0",
+      "description": "Console Context Debug"
+    },
+    "consoleDebugMessage": {
+      "prefix": "cxdm",
+      "body": "${1:context}.debug('${2:name}:', ${2:name})$0",
+      "description": "Console Context Debug with Message"
+    },
+    "consoleDebugDestructuring": {
+      "prefix": "cxdd",
+      "body": "${1:context}.debug({${2:name}})$0",
+      "description": "Console Context Debug with Destructuring"
+    },
+    "consoleDebugJson": {
+      "prefix": "cxdj",
+      "body": "${1:context}.debug('${2:obj}', JSON.stringify(${2:obj}, null, 2))$0",
+      "description": "Console Context Debug with Destructuring"
+    },
+    "consoleInfo": {
+      "prefix": "cxi",
+      "body": "${1:context}.info(${2:name})$0",
+      "description": "Console Context Info"
+    },
+    "consoleInfoMessage": {
+      "prefix": "cxim",
+      "body": "${1:context}.info('${2:name}:', ${2:name})$0",
+      "description": "Console Context Info with Message"
+    },
+    "consoleInfoDestructuring": {
+      "prefix": "cxid",
+      "body": "${1:context}.info({${2:name}})$0",
+      "description": "Console Context Info with Destructuring"
+    },
+    "consoleInfoJson": {
+      "prefix": "cxij",
+      "body": "${1:context}.info('${2:obj}', JSON.stringify(${2:obj}, null, 2))$0",
+      "description": "Console Context Info with Destructuring"
+    },
+    "consoleError": {
+      "prefix": "cxe",
+      "body": "${1:context}.error(${2:name})$0",
+      "description": "Console Context Error"
+    },
+    "consoleErrorMessage": {
+      "prefix": "cxem",
+      "body": "${1:context}.error('${2:name}:', ${2:name})$0",
+      "description": "Console Context Error with Message"
+    },
+    "consoleErrorDestructuring": {
+      "prefix": "cxed",
+      "body": "${1:context}.error({${2:name}})$0",
+      "description": "Console Context Error with Destructuring"
+    },
+    "consoleErrorJson": {
+      "prefix": "cxej",
+      "body": "${1:context}.error('${2:obj}', JSON.stringify(${2:obj}, null, 2))$0",
+      "description": "Console Context Error with Destructuring"
+    },
+    "consoleWarn": {
+      "prefix": "cxw",
+      "body": "${1:context}.warn(${2:name})$0",
+      "description": "Console Context Warn"
+    },
+    "consoleWarnMessage": {
+      "prefix": "cxwm",
+      "body": "${1:context}.warn('${2:name}:', ${2:name})$0",
+      "description": "Console Context Warn with Message"
+    },
+    "consoleWarnDestructuring": {
+      "prefix": "cxwd",
+      "body": "${1:context}.warn({${2:name}})$0",
+      "description": "Console Context Warn with Destructuring"
+    },
+    "consoleWarnJson": {
+      "prefix": "cxwj",
+      "body": "${1:context}.warn('${2:obj}', JSON.stringify(${2:obj}, null, 2))$0",
+      "description": "Console Context Warn with Destructuring"
+    },
+    "consoleTable": {
+      "prefix": "cxt",
+      "body": "${1:context}.table(${2:collection})$0",
+      "description": "Console Context Table"
+    },
+    "consoleTableDestructuring": {
+      "prefix": "cxtd",
+      "body": "${1:context}.table({${2:name}})$0",
+      "description": "Console Context Table with Destructuring"
+    },
+    "consoleAssert": {
+      "prefix": "cxa",
+      "body": "${1:context}.assert(${2:expression}, ${2:name})$0",
+      "description": "Console Context Assert"
+    },
+    "consoleDir": {
+      "prefix": "cxdr",
+      "body": "${1:context}.dir(${2:name})$0",
+      "description": "Console Context Dir"
+    },
+    "consoleTrace": {
+      "prefix": "cxtr",
+      "body": "${1:context}.trace(${2:name})$0",
+      "description": "Console Context Trace"
+    },
+    "consoleCount": {
+      "prefix": "cxc",
+      "body": "${1:context}.count('${2:label}')$0",
+      "description": "Console Context Count"
+    },
+    "consoleCountReset": {
+      "prefix": "cxcr",
+      "body": "${1:context}.countReset('${2:label}')$0",
+      "description": "Console Context Count Reset"
+    },
+    "consoleProfileStart": {
+      "prefix": "cxps",
+      "body": "${1:context}.profile()$0",
+      "description": "Console Context Profile Start"
+    },
+    "consoleProfileEnd": {
+      "prefix": "cxpe",
+      "body": "${1:context}.profileEnd('${2:label}')$0",
+      "description": "Console Context Profile End"
+    },
+    "consoleProfileWrapper": {
+      "prefix": "cxpw",
+      "body": ["${1:context}.profile()", "$0", "${1:context}.profileEnd()"],
+      "description": "Console Context Time Wrapper"
+    },
+    "consoleTimeStart": {
+      "prefix": "cxts",
+      "body": "${1:context}.time('${2:label}')$0",
+      "description": "Console Context Time Start"
+    },
+    "consoleTimeLog": {
+      "prefix": "cxtl",
+      "body": "${1:context}.timeLog('${2:label}')$0",
+      "description": "Console Context Time Log"
+    },
+    "consoleTimeEnd": {
+      "prefix": "cxte",
+      "body": "${1:context}.timeEnd('${2:label}')$0",
+      "description": "Console Context Time End"
+    },
+    "consoleTimeWrapper": {
+      "prefix": "cxtw",
+      "body": [
+        "${1:context}.time('${2:label}')",
+        "$0",
+        "${1:context}.timeEnd('${2:label}')"
+      ],
+      "description": "Console Context Time Wrapper"
+    },
+    "consoleGroupStart": {
+      "prefix": "cxgs",
+      "body": "${1:context}.group('${2:label}')$0",
+      "description": "Console Context Group Start"
+    },
+    "consoleGroupEnd": {
+      "prefix": "cxge",
+      "body": "${1:context}.groupEnd('${2:label}')$0",
+      "description": "Console Context Group End"
+    },
+    "consoleGroupWrapper": {
+      "prefix": "cxgw",
+      "body": [
+        "${1:context}.group('${2:label}')",
+        "$0",
+        "${1:context}.groupEnd('${2:label}')"
+      ],
+      "description": "Console Context Group Wrapper"
+    },
+    "consoleClear": {
+      "prefix": "cxlr",
+      "body": "${1:context}.clear()$0",
+      "description": "Console Context Clear"
+    }
+  }
+  
