@@ -1,7 +1,7 @@
 {
   "name": "debug-snippets",
   "description": "VS Code Debug snippets for JS, TS and CSS",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "displayName": "Debug Snippets",
   "publisher": "deinsoftware",
   "icon": "images/light-icon.png",

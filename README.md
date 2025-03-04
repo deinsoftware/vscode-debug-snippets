@@ -122,7 +122,7 @@ Below is a list of all available snippets and the triggers of each one. The `░
 
 | Trigger | Description                     | Result JS/TS                                                  |
 | ------: | ------------------------------- | ------------------------------------------------------------- |
-|   `cx→` | context                         | `const ░context = console.context(░label)█`                   |
+|   `cx→` | context                         | `const ░context = console.context('░label')█`                 |
 
 The `console.context()` API provides a convenient mechanism for filtering log messages, thereby helping to mitigate the issue of logs from other scripts or packages obscuring relevant information.
 

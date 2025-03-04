@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 1.7.1 - 2025/03/04
+
+### Fixed
+
+- Surround label text on console context definition.
+
 ## 1.7.0 - 2025/03/01
 
 ### Added
